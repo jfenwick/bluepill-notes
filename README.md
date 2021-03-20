@@ -30,14 +30,14 @@ I decided a servo was a good place to start.\
 Mbed has a lot of example code and libraries out there, but it usually takes more work than say Arduino to get examples going.\
 I ended up using a modified version of Simon's library, but Khaled's tutorial was useful for learning about tuning.\
 Initially I did it in Mbed Studio then ported to PlatformIO.\
-https://os.mbed.com/users/4180_1/notebook/an-introduction-to-servos/\
-https://os.mbed.com/cookbook/Servo\
-https://os.mbed.com/users/simon/code/Servo/\
-https://www.electronicshub.org/controlling-a-servo-motor-with-stm32f103c8t6/\
+https://os.mbed.com/users/4180_1/notebook/an-introduction-to-servos/<br>
+https://os.mbed.com/cookbook/Servo<br>
+https://os.mbed.com/users/simon/code/Servo/<br>
+https://www.electronicshub.org/controlling-a-servo-motor-with-stm32f103c8t6/<br>
 https://deepbluembedded.com/stm32-servo-motor-control-with-pwm-servo-library-examples-code/
 
 Setting up PlatformIO:\
-https://medium.com/@jobenas_25464/how-to-work-with-the-stm32-blue-pill-in-platformio-and-not-die-trying-1700250e54e2\
+https://medium.com/@jobenas_25464/how-to-work-with-the-stm32-blue-pill-in-platformio-and-not-die-trying-1700250e54e2<br>
 https://www.onetransistor.eu/2018/09/stm32-bluepill-dev-mbed-platformio-vscode.html
 
 I decided to try PlatformIO because VSCode has become the most popular IDE. I seem to be sticking with it for now.
