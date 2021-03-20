@@ -9,6 +9,7 @@ https://os.mbed.com/users/hudakz/code/STM32F103C8T6_Hello/
 
 Lessons learned:
 Mbed online compiler is good for building a blink program to test if board is working.
+
 No USB programming out of the box. Hookup ST-Link programmer to jumpers with female-to-female cables.
 STM32 ST-LINK Utility for uploading a basic program or erasing a chip.
 No serial printing from the ST-Link programmer. Use an FTDI programmer to connect to separate serial port.
