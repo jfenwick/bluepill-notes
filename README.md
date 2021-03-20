@@ -1,18 +1,16 @@
 # bluepill-notes
 All this development is on Windows 10, in case the platform is important.
 
-Here's a good overview.
+Here's a good overview.\
 https://www.e-tinkers.com/2020/01/getting-started-with-stm32-and-things-you-need-to-be-aware-of/
 
-Tutorial I started with.
+Tutorial I started with.\
 https://os.mbed.com/users/hudakz/code/STM32F103C8T6_Hello/
 
 Lessons learned:
-Mbed online compiler is good for building a blink program to test if board is working.
-
-No USB programming out of the box. Hookup ST-Link programmer to jumpers with female-to-female cables.
-STM32 ST-LINK Utility for uploading a basic program or erasing a chip.
-No serial printing from the ST-Link programmer. Use an FTDI programmer to connect to separate serial port.
+Mbed online compiler is good for building a blink program to test if board is working.\
+No USB programming out of the box. Hookup ST-Link programmer to jumpers with female-to-female cables. STM32 ST-LINK Utility for uploading a basic program or erasing a chip.\
+No serial printing from the ST-Link programmer. Use an FTDI programmer to connect to separate serial port.\
 Mbed Studio is an OK IDE to build programs in.
 
 At one point I started the debugger on Mbed Studio and the board got stuck. I managed to erase the chip in STM32 ST-LINK Utility. This is why it's useful to be able to use the utility even if you mostly program the board throug the IDE.
