@@ -23,7 +23,7 @@ For instance Serial is deprecated and will throw warnings when you use it.
 It helps to look at this:
 https://os.mbed.com/docs/mbed-os/v6.9/apis/index.html
 
-Watch out for when people try to put units into variables. Allegedly the compiler can handle that but I found it to be a problem.
+Sometimes people put units into variables. Allegedly the compiler can handle that but I found it to not work.
 
 Servos:\
 I decided a servo was a good place to start.\
