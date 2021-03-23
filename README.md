@@ -13,7 +13,7 @@ No USB programming out of the box. Hookup ST-Link programmer to jumpers with fem
 No serial printing from the ST-Link programmer. Use an FTDI programmer to connect to separate serial port.\
 Mbed Studio is an OK IDE to build programs in.
 
-At one point I started the debugger on Mbed Studio and the board got stuck. I managed to erase the chip in STM32 ST-LINK Utility. This is why it's useful to be able to use the utility even if you mostly program the board throug the IDE.
+At one point I started the debugger on Mbed Studio and the board got stuck. I managed to erase the chip in STM32 ST-LINK Utility. This is why it's useful to be able to use the utility even if you mostly program the board through the IDE.
 
 Don't try to printf floats! I got bit by this one.
 https://forums.mbed.com/t/printf-not-working-with-float-data-type/562
